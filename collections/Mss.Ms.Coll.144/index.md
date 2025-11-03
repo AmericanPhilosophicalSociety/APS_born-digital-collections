@@ -1,5 +1,7 @@
 ---
 title: Mss.Ms.Coll.144
+layout: page
+parent: collections
 nav_order: 2
 ---
 
