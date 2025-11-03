@@ -1,0 +1,108 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>TreeSize Report, 11/3/2025  4:44 PM</TITLE><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>*
+{
+    padding: 0;
+}
+body
+{
+        margin: 0px auto;
+        font-family: Arial, Helvetica, sans-serif, Serif;
+        font-size: 11px;
+}
+body, body td, body a {
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+}
+body.prominent-links a {
+	font-weight: bold !important;
+	color: #00f !important; /* equals clHyperlink */
+	text-decoration:underline !important; 
+}
+h1,h2,h3
+{
+	font-weight: normal;
+    text-align:center;
+	white-space:pre-line;
+}
+h1 {
+	font-size: 1.5em ;
+}
+h3 {
+	font-size: 1.3em;
+}
+table
+{
+    border-collapse:collapse;
+    width: 100%;
+    font-family: Arial, Calibri, Helvetica, sans-serif, Serif;
+    font-size:1em !important;
+	position: relative;
+	z-index: 0;
+	table-layout: fixed;
+}
+td, th
+{
+    vertical-align: top;
+    white-space: nowrap;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+	background-color: white;
+	overflow-x: hidden;
+	position: relative;
+	z-index: 1;
+}
+table td span {
+  font-family:monospace;
+  font-size: 150% !important;
+  white-space:pre;
+  color: #888;
+  font-weight: normal !important;
+}
+table img {
+	vertical-align: bottom;
+}
+table:hover tr td
+{
+	background-color: #f0f0f0;
+}
+#container
+{
+    margin: 1%;
+}
+th {
+	background-color: #fff !important;
+	font-weight: normal;
+	font-size: 120% !important;
+	border-bottom: 2px solid #999 !important; /* 1px will not get rendered in FF and IE11 */
+	padding: 0 0.4em;
+}
+.leaf
+{
+    display: none;
+}
+span[onclick="toggleFolding(this)"]:hover
+{
+    cursor: pointer;
+	background-color:#ccc;
+	color: #000 !important;
+	border-color: #000 !important;
+}
+span[onclick="toggleFolding(this)"]
+{
+    font-family: Courier, sans-serif, Serif;
+	border: 1px solid #999;
+	font-size: 1em !important;
+	padding: 0 0.2em;
+}
+.first-col
+{
+    text-align: left !important;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+
+</style><script>function toggleFolding(e){  var selectedNode = e.parentNode.parentNode.parentNode.parentNode;   selectedLeaf = getNextSibling(selectedNode);   if(selectedLeaf.style.display != "block") {    selectedLeaf.style.display = "block";    e.innerHTML = "-"  }  else {    selectedLeaf.style.display = "none";    e.innerHTML = "+"  }}function getNextSibling(element){  do {    element = element.nextSibling;  } while (element && element.nodeType != 1);  return element;}</script><noscript>  <style>  .leaf	{display: block; }  td, th{ white-space: normal;}  .first-col { width: 30%; }  </style></noscript></HEAD><BODY ><h1 align="center">TreeSize Report, 11/3/2025  4:44 PM</h1><h1 align="center">content</h1><h3>Drive:&nbsp;B:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size:&nbsp;10.0&nbsp;TB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Used:&nbsp;4.5&nbsp;TB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free:&nbsp;5.5&nbsp;TB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3><div id="container"><table><tr ><th class="first-col"  width="210"  align="left">Name</th><th width="85"  align="right">Size</th><th width="55"  align="right">Files</th><th width="55"  align="right">Folders</th><th width="100"  align="left">Last Modified</th><th width="100"  align="left">Last Accessed</th></tr>
+</table><table><tr><td  class="first-col" width="210"><span></span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded1_461822453">&nbsp;content</td><td  align="right"   width="85">402.6&nbsp;MB</td><td  align="right"   width="55">19</td><td  align="right"   width="55">0</td><td   width="100">11/5/2024</td><td   width="100">11/5/2024</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2010.doc</td><td  align="right"   width="85">209.1&nbsp;MB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">11/23/2010</td><td   width="100">11/23/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2009.doc</td><td  align="right"   width="85">65.4&nbsp;MB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">11/23/2010</td><td   width="100">11/23/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2007.doc</td><td  align="right"   width="85">58.2&nbsp;MB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">11/23/2010</td><td   width="100">11/23/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2006&nbsp;Edited.doc</td><td  align="right"   width="85">35.8&nbsp;MB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">12/30/2010</td><td   width="100">12/30/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2008.doc</td><td  align="right"   width="85">21.1&nbsp;MB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">11/23/2010</td><td   width="100">11/23/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2005&nbsp;Edited.doc</td><td  align="right"   width="85">2.9&nbsp;MB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">12/30/2010</td><td   width="100">12/30/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2005&nbsp;Edited&nbsp;REFORMAT&nbsp;2.doc</td><td  align="right"   width="85">2.8&nbsp;MB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">2/1/2011</td><td   width="100">2/1/2011</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded3_461822453">&nbsp;CLIP&nbsp;Newell.ppt</td><td  align="right"   width="85">1.6&nbsp;MB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">10/22/2010</td><td   width="100">10/22/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2000&nbsp;Edited.DOC</td><td  align="right"   width="85">923.5&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">6/13/2010</td><td   width="100">6/13/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Chronology&nbsp;MAIN&nbsp;07.03.09.doc</td><td  align="right"   width="85">902.0&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">12/15/2010</td><td   width="100">12/15/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2001&nbsp;Edited.DOC</td><td  align="right"   width="85">900.0&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">6/13/2010</td><td   width="100">6/13/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2002&nbsp;Edited.DOC</td><td  align="right"   width="85">880.0&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">1/4/2010</td><td   width="100">1/4/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2004.Edited.doc</td><td  align="right"   width="85">697.5&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">12/30/2010</td><td   width="100">12/30/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;2003.&nbsp;EDIT&nbsp;doc.doc</td><td  align="right"   width="85">668.5&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">2/25/2010</td><td   width="100">2/25/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;1998&nbsp;Edited.DOC</td><td  align="right"   width="85">310.5&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">6/13/2010</td><td   width="100">6/13/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;1999&nbsp;Edited.RTF</td><td  align="right"   width="85">287.7&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">6/13/2010</td><td   width="100">6/13/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;BSB&nbsp;Diary&nbsp;1997&nbsp;Edited.doc</td><td  align="right"   width="85">208.5&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">6/9/2010</td><td   width="100">6/9/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;├</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded2_461822453">&nbsp;Diary&nbsp;11.28.10.doc</td><td  align="right"   width="85">20.0&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">11/29/2010</td><td   width="100">11/29/2010</td></tr></table><table><tr><td  class="first-col" width="210"><span>&nbsp;└</span>&nbsp;<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="embedded4_461822453">&nbsp;Blumberg&nbsp;Journal&nbsp;notes&nbsp;Lippert&nbsp;2017&nbsp;April.docx</td><td  align="right"   width="85">14.2&nbsp;KB</td><td  align="right"   width="55">1</td><td  align="right"   width="55">0</td><td   width="100">4/24/2017</td><td   width="100">4/24/2017</td></tr></table></div>
+<style type="text/css">.embedded2_461822453 {  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMA/wD/AP83WBt9AAAA7klEQVR42mP8//8/AxisWLaMARtgZWVzdnEWEBSEcBmRNURERaGpntjfn5ScvGvnLrgewhryCws/f/oE10NAQ1xMzKIlS4AMuB5G7fDpDLhBqvl3oA0QNkQPSMOVFRlYVetEzDBiOQLnGhsbi4uLo9iwc3K0e+5SCAkRQTML6GyoDUDDgPwYT90l2y+XxVp1LT42v84vsWkTUGrmzJkQ1enp6egaeLnYPn/7pS4vfPPhW4ggARsgGoAME03JBfX+EA34bIA4CcjIDDbJDjUhbAPcu0APmGpJ4bMBV7BitwFPxGGxAX/SQAPoGhiIAACX07svrhHV0wAAAABJRU5ErkJggg==);  width: 16px;  height: 16px; }.embedded4_461822453 {  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMA/wD/AP83WBt9AAAA6ElEQVR42mP8//8/AxisWLaMARtgZWVzdnEWEBSEcBmRNURERaGpntjfn5ScvGvnLrgewhryCws/f/oE18N4+urTT99+3Xjw5uipS6zcwjcfvv387deVFRkzZ84Eajh6+PCiJUuADLgeRu3w6ZjuBmpAtgHChujBqQFuA1zQ2NhYXFwcpCEz2GT62jPIJNwGNAD0J0gDUFonYgYaCbEBGaSnp+PTgM8GoDOyQ02mrj4DISFOwmcDxJdw45FDCbsNeEIJpw244gGLDU9ff3r26vOpa89On7v0nx09prHYgD8tYbGBYPJGAwD9rswvRJEZdAAAAABJRU5ErkJggg==);  width: 16px;  height: 16px; }.embedded3_461822453 {  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMA/wD/AP83WBt9AAAA5ElEQVR42mP8//8/AxisWLaMARtgZWVzdnEWEBSEcBmRNURERaGpXr50mY+vz66du+B6CGuIjI76/OkTXA9RGoAMuB7GC25qDLjBJfvg2Ko2CBuiB6RBf+dNrKovuqtfMHVh4uJnkdeB+piRAaoBKIemGiIIJL/tmsvllgx3NkKDeEyORGwuRBEyOWHChOTkZF5eXhQNl4NMdNedgTgDzYY1a9aEhISg2wDXAHc9XMPPnz/Z2dlxOgko+mLx5JdLpsA1IHsMRQMeT0NEgF5HaMAVrNhtwBNxWGzAnzTQALoGBiIAAKSIvi/zhePWAAAAAElFTkSuQmCC);  width: 16px;  height: 16px; }.embedded1_461822453 {  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMA/wD/AP83WBt9AAABOklEQVR42pVSPUsEMRCdyXF36wrKFWIhqGBpayFWdv4g4QQrKxtBsLXS1tLKxtafcIWIhx/7A4Rb5TYf40yyWXK6zS7D8jJ5780kGSQi6PKh/bytJsc0/2IhkSJAlW9nBw8q32oXfD/uUPkOIFQiCcaYby4fPmF/tUUwux96oBxTWSAyBRCU3gLEguuzS747ZkEmnaTbvaVs42i4vg9OAxiwFVAlmLRzFl1xg4MRkJGQLIM52FKiTloAG7FBKq7FgKwPs/BnnmsyNUD6uGpnh2TwdiZqNNLbxd89cL57W/MaQNpXmJ7LyYJraFfYzivDqZqWjBe8nsWFS3tN7sAG74CRXk5j3dQpGv+rg/Z5rOSWzGLpRJAuB2v4M70rJ5d6VvAz8xyRw3pGILy3io+Nvf7KaO8EO09rV8Evb3tNhQd8fGYAAAAASUVORK5CYII=);  width: 16px;  height: 16px; }</style></BODY></HTML>
