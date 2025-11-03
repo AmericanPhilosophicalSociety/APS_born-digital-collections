@@ -1,8 +1,7 @@
 ---
 title: Mss.Ms.Coll.144
 layout: page
-parent: collections
-nav_order: 2
+nav_order: 3
 ---
 
 Mss.Ms.Coll.144 - Blumberg
