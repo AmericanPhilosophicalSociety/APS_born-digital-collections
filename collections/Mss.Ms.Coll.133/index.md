@@ -1,6 +1,7 @@
 
 ---
 title: Mss.Ms.Coll.133
+layout: page
 nav_order: 3
 ---
 Disks that were uploaded 
