@@ -5,4 +5,4 @@ nav_order: 3
 ---
 **Mss.Ms.Coll.133**
 
-<a href="MssMs.Coll.133_276_disk007.html">disk018</a>
+<a href="disk007.html">disk007</a>
